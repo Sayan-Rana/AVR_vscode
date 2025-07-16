@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flash to ATmega328P",
+      "type": "shell",
+      "command": "avrdude",
+      "args": [
+        "-c", "usbasp",             // Or whatever programmer you use
+        "-p", "m328p",
+        "-U", "flash:w:build/Blink.hex:i"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Clean Build",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-E", "rm", "-rf", "build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "cmake.preferredGenerators": ["Ninja"],
+  "cmake.configureOnOpen": true,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.configureSettings": {
+    "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-avr.cmake"
+  },
+  "files.associations": {
+    "main.h": "c",
+    "io.h": "c",
+    "delay.h": "c"
+  }
+}

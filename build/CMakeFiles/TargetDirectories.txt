@@ -1,3 +1,0 @@
-F:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/build/CMakeFiles/Blink.elf.dir
-F:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/build/CMakeFiles/edit_cache.dir
-F:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/build/CMakeFiles/rebuild_cache.dir

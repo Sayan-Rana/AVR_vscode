@@ -47,7 +47,7 @@ build cmake_object_order_depends_target_Blink.elf: phony || .
 build CMakeFiles/Blink.elf.dir/Src/main.c.obj: C_COMPILER__Blink.2eelf_unscanned_ F$:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Src/main.c || cmake_object_order_depends_target_Blink.elf
   DEP_FILE = CMakeFiles\Blink.elf.dir\Src\main.c.obj.d
   FLAGS = -mmcu=atmega328p -DF_CPU=16000000UL -Os -Wall -std=gnu11
-  INCLUDES = -IF:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Inc -IF:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Src
+  INCLUDES = -IF:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Inc
   OBJECT_DIR = CMakeFiles\Blink.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Blink.elf.dir\Src
   TARGET_COMPILE_PDB = CMakeFiles\Blink.elf.dir\

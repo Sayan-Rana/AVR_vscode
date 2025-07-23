@@ -25,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 12,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 19,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -50,10 +50,6 @@
 				{
 					"backtrace" : 2,
 					"path" : "F:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Inc"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "F:/Sayan/Programming/VScode_AVR/Atmega328P/Blink/Src"
 				}
 			],
 			"language" : "C",

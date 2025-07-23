@@ -1,24 +1,20 @@
 cmake_minimum_required(VERSION 3.15)
 
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+set(CMAKE_VERBOSE_MAKEFILE ON CACHE BOOL "ON" FORCE)
 
 project(Blink C)
-
-# Set MCU and F_CPU
-set(MCU atmega328p)
-set(F_CPU 16000000UL)
 
 # Add executable
 add_executable(${PROJECT_NAME}.elf
     Src/main.c
 )
 
-set(CMAKE_VERBOSE_MAKEFILE ON CACHE BOOL "ON" FORCE)
-
 # Include directories
 target_include_directories(${PROJECT_NAME}.elf PRIVATE 
     ${CMAKE_SOURCE_DIR}/Inc
-    ${CMAKE_SOURCE_DIR}/Src
 )
 
 # Generate HEX file
